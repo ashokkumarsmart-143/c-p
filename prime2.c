@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main()
 {
-    int l, h, i, flag;
+    int l, hi, i, flag;
     printf("Enter two numbers(intervals): ");
-    scanf("%d %d", &l, &h);
+    scanf("%d %d", &l, &hi);
 
-    printf("Prime numbers between %d and %d are: ", l, h);
+    printf("Prime numbers between %d and %d are: ", l, hi);
 
-    while (l < h)
+    while (l < hi)
     {
         flag = 0;
 
