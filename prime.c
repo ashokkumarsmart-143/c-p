@@ -5,6 +5,8 @@ int main()
 
     printf("Enter a positive integer: ");
     scanf("%d", &n);
+    if(n<=1000)
+    {
 
     for(i = 2; i <= n/2; ++i)
     {
@@ -26,6 +28,11 @@ int main()
           printf("%d is a prime number.", n);
         else
           printf("%d is not a prime number.", n);
+    }
+    }
+    else
+    {
+        printf("Enter between 0 to 1000");
     }
     
     return 0;
