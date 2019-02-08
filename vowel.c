@@ -1,15 +1,15 @@
 #include <stdio.h>
 int main()
 {
-    char r;
+    char x;
     int Lowercase, Uppercase;
     printf("Enter an alphabet: ");
-    scanf("%c",&r);
-    Lowercase = (r == 'a' || r == 'e' || r == 'i' || r == 'o' || r == 'u');
-    Uppercase = (r == 'A' || r == 'E' || r == 'I' || r == 'O' || r == 'U');
+    scanf("%c",&x);
+    Lowercase = (x == 'a' || x == 'e' || x == 'i' || x == 'o' || x == 'u');
+    Uppercase = (x == 'A' || x == 'E' || x == 'I' || x == 'O' || x == 'U');
     if (Lowercase || Uppercase)
-        printf("%c is a vowel.", r);
+        printf("%c is a vowel.", x);
     else
-        printf("%c is a consonant.", r);
+        printf("%c is a consonant.", x);
     return 0;
 }
