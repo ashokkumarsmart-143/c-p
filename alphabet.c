@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main()
 {
-    char a;
+    char s;
     printf("Enter a character: ");
-    scanf("%c",&a);
+    scanf("%c",&s);
 
-    if( (a>='a' && a<='z') || (a>='A' && a<='Z'))
-        printf("%c is an alphabet.",a);
+    if( (s>='a' && s<='z') || (s>='A' && s<='Z'))
+        printf("%c is an alphabet.",s);
     else
-        printf("%c is not an alphabet.",a);
+        printf("%c is not an alphabet.",s);
 
     return 0;
 }
