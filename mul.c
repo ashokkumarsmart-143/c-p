@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-int n;
+int n,i;
 scanf("%d",&n);
-for(i+n;i<=5*n;i+n)
+for(i=n;i<=5*n;i+n)
 {
 printf("%d",i);
 }
